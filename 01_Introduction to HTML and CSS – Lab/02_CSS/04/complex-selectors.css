@@ -1,0 +1,15 @@
+.nav-home {
+    font-weight: bold;
+}
+
+h1 > span {
+    color: darkred;
+}
+
+section > article:first-child > p {
+    background-color: lightblue;
+}
+
+img {
+    border: 10px, solid, red;
+}

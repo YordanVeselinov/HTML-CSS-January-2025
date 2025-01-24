@@ -1,0 +1,22 @@
+div p {
+    color: blue;
+}
+
+
+ol {
+    list-style-type: circle;
+}
+
+p:nth-child(2) {
+    background-color: lightgrey;
+    color: blue;
+}
+
+p > span {
+    color: red;
+}
+
+p ~ span {
+    font-weight: bold;
+    color: red;
+}

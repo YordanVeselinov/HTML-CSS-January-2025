@@ -1,0 +1,45 @@
+a {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.4em 1em;
+    margin: 0 1em
+}
+
+.hero-section {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.2em 1em;
+    margin: 0.8em 1em
+}
+
+h1 {
+    margin-bottom: 0.8em;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.2em 1em;
+    margin: 1em 1em;
+}
+
+h2 { 
+    margin-bottom: 0.8em;
+}
+
+section > p {
+    margin-bottom: 0.4em; 
+}
+
+footer {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.2em 1em;
+    margin: 1em 1em;
+}

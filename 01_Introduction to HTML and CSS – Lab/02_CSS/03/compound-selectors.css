@@ -1,0 +1,26 @@
+.highlighted {
+    color: aqua;
+    font-size: 24px;
+}
+
+.special {
+    background-color: orange;
+}
+
+li.important:first-child {
+    color: aquamarine;
+}
+
+li.important:last-child {
+    color: red;
+    font-style: italic;
+}
+
+.fancy-softuni {
+    color: lightcoral;
+    border-bottom: 2px solid lightcoral;
+}
+
+p:last-of-type {
+    color: blue;
+}

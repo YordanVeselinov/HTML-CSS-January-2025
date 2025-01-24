@@ -1,0 +1,25 @@
+h1 {
+    color: aqua;
+}
+
+li {
+    background-color: black;
+    color: red;
+
+}
+
+p {
+    border: 1px solid green;
+}
+ul {
+  list-style-type: none;
+}
+
+* {
+    padding: 0 auto;
+    text-align: center;
+}
+
+.highlight {
+    background-color: #456;
+}

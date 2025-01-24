@@ -1,0 +1,33 @@
+article > article.highlighted {
+    background-color: aqua;
+}
+
+ol {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+ol > li:nth-child(2) {
+    color: burlywood;
+}
+
+ol > li > ol > li > a {
+    color: blue;
+    text-decoration: none;
+}
+
+ol > li > ol > li:last-child > a {
+    color: greenyellow;
+}
+
+h2 ~ p {
+    color: blue;
+}
+
+h2 {
+    margin: 1.5em 0;
+}
