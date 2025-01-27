@@ -1,0 +1,13 @@
+p > time {
+    color: grey;
+    font-style: italic;
+}
+
+p > span {
+    font-weight: bold;
+    color: grey;
+}
+
+p:has(time) {
+    color: grey;
+}
