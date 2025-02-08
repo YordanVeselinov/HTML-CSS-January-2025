@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+}
+
+div > p {
+    border: 2px solid #000;
+    padding: 20px;
+    background: #eee;
+    margin: 0
+}
+
+.wrap {
+    flex-wrap: wrap;
+}

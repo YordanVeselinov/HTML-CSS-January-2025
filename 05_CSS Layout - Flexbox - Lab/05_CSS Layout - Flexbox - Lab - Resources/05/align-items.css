@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    border: 2px solid blue;
+    width: 400px;
+    padding: 1em;
+    height: 200px;
+}
+
+div > p {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.stretch {
+    justify-content: space-between;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.baseline {
+    align-items: baseline;
+}
