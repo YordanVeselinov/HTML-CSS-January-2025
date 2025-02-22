@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 12px/1.5 "Source Sans 3", sans-serif;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+body, input, textarea, button {
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button, input, textarea, select {
+    font: inherit;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input, textarea {
+    border: 0;
+    border-bottom: 1px solid #C2C2C2;
+    padding: 0.4em;
+    background-color: transparent;
+    color: #757575;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #585858;
+}
+
+.conteiner {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.form {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.socials {
+    flex: 0 0 350px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.wrapper {
+    display: flex;
+    gap: 2em;
+}
+
+.wrapper > input {
+    flex: 1 1 auto;
+}
+button {
+    display: inline-block;
+    background-color: #585858;
+    font-weight: 900;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 0.2em;
+    border: none;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+
+
+.form > footer {
+    display: flex;
+    gap: 1em;
+    color: #757575;
+}
+
+.form > footer > span > a {
+    color: #585858;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.socials ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    padding: 0;
+    list-style: none;
+}
+
+.socials ul li a {
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f6f6;
+    border-radius: 0.2em;
+    color: #585858;
+    text-decoration: none;
+    border: 1px solid #C9C9C9;
+    width: 3.5em;
+    height: 3.5em;
+    padding: 0 2em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
