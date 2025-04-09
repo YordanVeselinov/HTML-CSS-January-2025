@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Card</title>
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name Here - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
 
-    
-    <header>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Case Studies</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Recent Work</a></li>
-        <li><a href="#">Get In Touch</a></li>
-      </ul>
+    <div class="container">
+        <header>
+            <nav>
+                <ul class="nav-left">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Take a Tour</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+                <ul class="nav-right">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Get in Touch</a></li>
+                    <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" aria-label="Google Plus"><i class="fab fa-google-plus-g"></i></a></li>
+                    </ul>
+            </nav>
+        </header>
 
-      <ul>
-        <li><a href="#"><img src="images/LinkedIn.png" alt=""></a></li>
-        <li><a href="#"><img src="images/Behance.png" alt=""></a></li>
-        <li><a href="#"><img src="images/Twitter.png" alt=""></a></li>
-      </ul>
-    </header>
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Your Name Here</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis autem est harum nemo consectetur! Eos quos similique voluptates accusamus.</p>
+                    <a href="#" class="button">Learn More <i class="fas fa-caret-right"></i></a>
+                </div>
+                <div class="hero-image">
+                    <img src="placeholder-profile.png" alt="Profile Picture Placeholder"> 
+                </div>
+            </section>
 
-    <main>
-      <div class="left-side">
-        <h1>Your Name Here</h1>
-        <p>Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <button>Let’s get started ></button>
-      </div>
+            <section class="skills">
+                <h2>WHAT WE DO:</h2>
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <i class="fas fa-pencil-ruler fa-2x"></i> <span>Designs</span>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-cogs fa-2x"></i> <span>Features</span>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-headset fa-2x"></i> <span>Support</span>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-star fa-2x"></i> <span>Extras</span>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-      <img src="./images/profile_350x350.png" alt="">
-    </main>
-    
-    <footer>
-      <p>Worked with:</p>
-      <ul>
-        <li><a href="#"><img src="./images/clickup logo.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/dropbox_blue logo.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/Paychex logo.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/Elastic logo.png" alt=""></a></li>
-        <li><a href="#"><img src="./images/stripe logo.png" alt=""></a></li>
-      </ul>
-    </footer>
-    
-    
-    
-  </body>
+        </div>
+
+</body>
 </html>

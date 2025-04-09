@@ -4,118 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Gallery</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        .hero {
-            background: linear-gradient(to bottom, #ff7e5f, #feb47b);
-            padding: 50px 20px;
-            color: white;
-        }
-        .navbar ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-        .navbar ul li {
-            display: inline;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .cta {
-            padding: 10px 20px;
-            border: none;
-            background: white;
-            color: #ff7e5f;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .cars {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        .car {
-            max-width: 300px;
-        }
-        .signup {
-            background: linear-gradient(to bottom, #002f4b, #005e7c);
-            color: white;
-            padding: 30px 20px;
-        }
-        .weird-cars {
-            padding: 30px;
-        }
-        .car-images img {
-            width: 150px;
-            height: auto;
-            margin: 5px;
-        }
-        footer {
-            background: #f8f8f8;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar">
+
+    <header class="hero-section">
+        <nav>
             <ul>
-                <li>Dropdown</li>
-                <li>Left Sidebar</li>
-                <li class="active">Car Gallery</li>
-                <li>Right Sidebar</li>
-                <li>No Sidebar</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
-        <h1>Car Gallery</h1>
-        <p>Your ultimate destination for exploring stunning cars, from classics to the latest models!</p>
-        <button class="cta">See all cars</button>
+        <div class="hero-content">
+            <h1>Car Gallery</h1>
+            <p>Your ultimate destination for automotive enthusiasts. Explore classic rides to the latest models!</p>
+            <a href="#" class="button button-ghost">See All Cars</a>
+        </div>
     </header>
-    
-    <section class="cars">
-        <div class="car">
-            <img src="fastest-car.jpg" alt="Fastest car">
-            <h2>Fastest car in the World</h2>
-            <p>Koenigsegg claims that their new Jesko Absolut can reach 531 km/h...</p>
-            <button>Read more...</button>
-        </div>
-        <div class="car">
-            <img src="most-expensive.jpg" alt="Most expensive car">
-            <h2>Most expensive car in the World</h2>
-            <p>The Rolls-Royce Boat Tail is the most expensive car of all time - $26.2 million...</p>
-            <button>Read more...</button>
-        </div>
-    </section>
 
-    <section class="signup">
-        <p>Sign in or register now to join our community!</p>
-        <button>Sign In/Register</button>
-    </section>
+    <main>
+        <section class="featured-cars">
+            <div class="container grid-container">
+                <article class="car-card">
+                    <img src="images/fastest-car.jpg" alt="Fastest Car"> <h2>Fastest car in the World</h2>
+                    <p>Experience the pinnacle of speed. Explore the engineering marvels that push the boundaries of automotive performance.</p>
+                    <a href="#" class="button button-ghost-dark">Read More</a>
+                </article>
+                <article class="car-card">
+                    <img src="images/expensive-car.jpg" alt="Most Expensive Car"> <h2>Most expensive car in the World</h2>
+                    <p>Discover the epitome of luxury and exclusivity. These cars represent the highest standards of craftsmanship and design.</p>
+                    <a href="#" class="button button-ghost-dark">Read More</a>
+                </article>
+            </div>
+        </section>
 
-    <section class="weird-cars">
-        <h2>WEIRDEST CARS EVER MADE</h2>
-        <button>Read the article...</button>
-        <div class="car-images">
-            <img src="weird1.jpg" alt="Weird car 1">
-            <img src="weird2.jpg" alt="Weird car 2">
-            <img src="weird3.jpg" alt="Weird car 3">
-        </div>
-    </section>
+        <section class="cta">
+            <div class="container">
+                <p>Sign in or register now to join our community!</p>
+                <a href="#" class="button button-solid">Register Now</a>
+            </div>
+        </section>
+
+        <section class="weird-cars">
+            <div class="container">
+                <h2>WEIRDEST CARS EVER MADE</h2>
+                <div class="weird-grid">
+                    <img src="images/weird-car-1.jpg" alt="Weird Car 1"> <img src="images/weird-car-2.jpg" alt="Weird Car 2"> <img src="images/weird-car-3.jpg" alt="Weird Car 3"> </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>Explore the World of Cars</p>
-        <p>Discover stunning car galleries, detailed insights, and the beauty of automotive design—all in one place.</p>
-        <small>&copy; 2025 - Car Gallery. All rights reserved.</small>
+        <div class="container">
+            <h2>Explore the World of Cars</h2>
+            <p>Discover stunning car galleries, detailed insights, and the beauty of automotive design—all in one place.</p>
+            <p class="copyright">&copy; 2025 CarGallery. All Rights Reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
-
