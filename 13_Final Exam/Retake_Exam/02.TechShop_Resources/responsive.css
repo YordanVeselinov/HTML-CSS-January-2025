@@ -1,0 +1,159 @@
+@media (max-width: 600px) {
+    body {
+        width: 95%;
+    }
+
+    nav {
+        padding: 10px 5%;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .shop_name {
+        margin-right: auto;
+    }
+
+    .nav-burger-menu {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .welcome {
+        flex-direction: column;
+        width: 90%;
+        gap: 25px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .welcome > img {
+        width: 70%;
+        max-width: 250px;
+        margin-bottom: 15px;
+    }
+
+    .welcome > div > h1,
+    .welcome > div > p {
+        width: 100%;
+        text-align: center;
+    }
+
+     .welcome > div > h1 {
+        font-size: 1.5em;
+     }
+
+    .welcome > div > p {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    .welcome > div > button {
+        width: 100%;
+        padding: 12px 25px;
+        flex: 0 auto 100%;
+        margin-bottom: 30px;
+    }
+
+    main > h1 {
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        gap: 25px;
+    }
+
+    .services div {
+        width: 95%;
+        padding: 15px;
+        text-align: center;
+    }
+
+     .services div img {
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 10px;
+     }
+
+     .services div h2 {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+     }
+
+     .services div p {
+        font-size: 0.95em;
+     }
+
+    footer {
+        padding: 30px 5%;
+        margin-top: 60px;
+    }
+
+    footer > ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        margin-left: 0;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-self: center;
+        padding: 0 2em;
+    }
+
+    footer > ul > li:nth-child(1) {
+        width: 90%;
+        padding-right: 0;
+        margin: 0;
+    }
+    
+    footer > ul > li:nth-child(1) > p {
+        padding: 0 12px;
+    }
+
+    footer > ul > li:nth-child(2)  {
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+    footer > ul li:nth-child(1) {
+        width: 100%;
+    }
+
+    footer > ul > li:nth-child(3) {
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+     footer > ul li:not(:nth-child(1)) h2 {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+     }
+
+    .inner_list {
+        align-items: center;
+        width: auto;
+        gap: 8px;
+    }
+
+     .inner_list li a {
+        font-size: 1em;
+     }
+
+    footer > div {
+        margin-top: 30px;
+    }
+
+    footer > div > p {
+        width: 90%;
+        font-size: 0.9em;
+    }
+}
